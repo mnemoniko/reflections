@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+- Isolated what lines were different
+- Isolated what the difference was
+- Check the differences to see which one could cause a bug
+- Would be harder with multiple files
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- Don't repeat the same mistakes
+- Easy to go back to a specific point and undo something new
+- Can see what other people have added for group projects
+- Directly compare file instead of scanning back over notes
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+- Create commits at logical intervals
+- Commit only one file at a time, if you've made several changes
+- Add comments to each commit
+Cons:
+- Forget to commit often enough
+- Procrastinate committing until it works after major changes
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Git is for projects, Docs for individual files/papers
+- Saving only one file per commit saves space
+- Don't always need to save more than one file
+- Depends on what the user needs
+
+How can you use the commands git log and git diff to view the history of files?
+- log shows all the commits made
+- log --stat shows stats of commits, including lines added/changes and files changed
+- diff directly compares two commits, showing changes to all files
+
+How might using version control make you more confident to make changes that could break something?
+- All the old versions that work are still available
+- It is easy to track down which changes broke something
+
+Now that you have your workspace set up, what do you want to try using Git for?
+- Version control for ROMS
+- Version control for Matlab function files
+- Version control with Overleaf
+
