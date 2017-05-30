@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+- Creates the hidden .git file
+- No commits are created
+- No files are put in the repository (yet)
+- Need to do it to set up the initial .git and to start off your top directory
+
