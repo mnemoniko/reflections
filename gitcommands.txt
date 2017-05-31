@@ -4,6 +4,7 @@ git branch		  - show git branches available
 	   -d branch	  - remove a branch
 git checkout branch       - switch to a branch
     	     -b newbranch - create and switch to new branch
+git clone url		  - clone a remote repository
 git commit                - commit files from staging area to (local) repository
            -m "message"   - include commit message
 git diff            	  - compares working dir to staging area
@@ -14,7 +15,7 @@ git log	 	    	  - shows commit history of that branch
         --oneline   	  - shortened version
 	--stat		  - show additional statistics
 git merge branch1 branch2 - merge branch2 into branch1
-git pull
+git pull remote branch	  - pull a remote branch to local repository
 git push remote local     - push changes from local branch to remote branch
 git remote	  	  - see remote repositories
     	   add name url   - add a new remote repository (need URL from github)
