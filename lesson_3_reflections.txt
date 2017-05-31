@@ -7,3 +7,11 @@ Why might you want to always pull changes manually rather than having Git automa
 - Collaborators might push code to the repository that is incompatible with yours
 - If you are making local changes, a remote pull would overwrite them
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another
+- Fork is to get a copy of someone else's code that you want to change, but don't necessarily want to collaborate on
+- Fork leaves the original code intact
+- Clone gets a copy of a repository
+- Clone works for initializing repositories, and for pushing/pulling changes later
+- Branch creates a new branch of a code you have already forked or clone
+- Branches are used to add new features, or fix bugs, and are considered part of the original clone or fork.
+
