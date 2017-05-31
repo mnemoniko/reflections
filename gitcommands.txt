@@ -1,0 +1,24 @@
+git add                   - add file to staging area
+git branch		  - show git branches available
+    	   branchname	  - create a branch
+	   -d branch	  - remove a branch
+git checkout branch       - switch to a branch
+    	     -b newbranch - create and switch to new branch
+git commit                - commit files from staging area to (local) repository
+           -m "message"   - include commit message
+git diff            	  - compares working dir to staging area
+         --staged   	  - compares staging area to (local) repository
+git init 		  - initialize a new repository
+git log	 	    	  - shows commit history of that branch
+	--graph     	  - visual of branches and merges
+        --oneline   	  - shortened version
+	--stat		  - show additional statistics
+git merge branch1 branch2 - merge branch2 into branch1
+git pull
+git push remote local     - push changes from local branch to remote branch
+git remote	  	  - see remote repositories
+    	   add name url   - add a new remote repository (need URL from github)
+	   -v  	    	  - verbose output
+git reset --hard    	  - undo all changes, lose local non-commited changes
+git show commitID	  - show changes to commit compared to previous commit
+git status          	  - shows untracked files and staged files
