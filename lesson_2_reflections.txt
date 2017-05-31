@@ -10,3 +10,30 @@ How is the staging area different from the working directory and the repository?
 - Able to make changes before committing
 - Able to have extra files in the working directory that aren't in the repository
 
+How can you use the staging area to make sure you have one commit per logical change?
+- Compare staging area to commit to see what file(s) are added (git diff --staged)
+- Only add files to staging area that are logically connected to one change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- Two (or more versions) of a code
+- Experimental changes while fixing bugs in original code
+- Comparing code with different modifications
+
+How do the diagrams help you visualize the branch structure?
+- You can see what commits are labeled branches
+- You can see what commits you can't reach if you switch branches
+- How many versions of the code there are
+- Where the code diverges and how many changes since then
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- Include changes and deletions from both
+- Combine added features and/or bug fixes into one branch
+- To see the history of each branch and the point at which they merged
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Pros:
+- Easily merge unrelated changes, combine features or bug fixes
+- Unrelated changes to similar lines will throw an error
+Cons:
+- A seemingly unrelated line change might actually be related to other changes and mess up the merged file
+
