@@ -9,6 +9,7 @@ git commit                - commit files from staging area to (local) repository
            -m "message"   - include commit message
 git diff            	  - compares working dir to staging area
          --staged   	  - compares staging area to (local) repository
+git fetch		  - get a remote branch (does not affect local branches)
 git init 		  - initialize a new repository
 git log	 	    	  - shows commit history of that branch
 	--graph     	  - visual of branches and merges
@@ -16,6 +17,7 @@ git log	 	    	  - shows commit history of that branch
 	--stat		  - show additional statistics
 git merge branch1 branch2 - merge branch2 into branch1
 git pull remote branch	  - pull a remote branch to local repository
+    	 origin master	  - combination of fetch origin (remote) and merge with master (local)
 git push remote local     - push changes from local branch to remote branch
 git remote	  	  - see remote repositories
     	   add name url   - add a new remote repository (need URL from github)
