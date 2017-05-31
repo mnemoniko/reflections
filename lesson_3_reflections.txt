@@ -15,3 +15,6 @@ Describe the differences between forks, clones, and branches. When would you use
 - Branch creates a new branch of a code you have already forked or clone
 - Branches are used to add new features, or fix bugs, and are considered part of the original clone or fork.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- You can see how much the remote changed since you last cloned or pulled it
+- Gives info on how much needs to be merged
